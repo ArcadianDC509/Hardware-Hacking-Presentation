@@ -18,3 +18,7 @@ https://www.blackhillsinfosec.com/dumping-firmware-with-the-ch341a-programmer/
 - Devices that require more memory do not use EEPROM for the main file system. However embeded devices that are small are likely to still use EEPROM as the primary memory location
 - There are ways to get access to the file system through hardware debugging ports that use UART or SPI.
 - Over the air updates are used to update firmware over the air, as the name implies, and can reduce the need to physically open up devices.
+
+
+## Notes on file systems
+- For some reason binwalk was having issues extracting some older squashfs file systems, will need to look into finding workarounds. Other file systems include UBI blobs
