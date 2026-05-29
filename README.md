@@ -15,9 +15,9 @@ Here is a great blog post from Black Hills Information Security on how to dump f
 https://www.blackhillsinfosec.com/dumping-firmware-with-the-ch341a-programmer/
 
 ## Notes and Caveates
-- Devices that require more memory do not use EEPROM for the main file system. However embeded devices that are small are likely to still use EEPROM as the primary memory location
+- Devices that require more memory do not use EEPROM for the main file system. However embeded devices that are small are likely to still use EEPROM as the perminant memory location that is decompressed and written to in use memeory
 - There are ways to get access to the file system through hardware debugging ports that use UART or SPI.
-- Over the air updates are used to update firmware over the air, as the name implies, and can reduce the need to physically open up devices.
+- Over the air updates are used to update firmware over the air, as the name implies, and can reduce the need to physically open up devices. ( so I have been told )
 
 
 ## Notes on file systems
